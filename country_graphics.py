@@ -18,7 +18,7 @@ def graphic_country_pop(pop_l, c_l):
     print("Select a country from the following list: ")
     for element in c_l:
       print(element)
-    n = input("Country => ")
+    n = input("Country => ").capitalize()
     if n in c_l:
       break
     print("invalid country")
